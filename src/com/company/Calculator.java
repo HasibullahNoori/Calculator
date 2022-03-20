@@ -8,7 +8,7 @@ public class Calculator {
     public void calculate() throws InvalidClassException {
         Scanner sc = new Scanner(System.in);
         //operator, and two number
-        System.out.println("Choose an Operator  + - * /");
+        System.out.println("Choose an Operator  + - * / ");
         char operator = sc.next().charAt(0);
         System.out.println("Enter first Number");
         Double num1 = sc.nextDouble();
