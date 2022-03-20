@@ -14,7 +14,7 @@ public class Calculator {
         Double num1 = sc.nextDouble();
         System.out.println("Enter Second Number");
         Double num2 = sc.nextDouble();
-        Double result = 0.0;
+        double result = 0.0;
         switch (operator){
             case '+' :{
                 result = num1 + num2;
